@@ -15,12 +15,16 @@
 * Javascript 와 jQuery 그리고 Bootstrap3
 * Git 과 Cloud9 (화장품 아님) 
 
-  
 
 #### 2nd week
+
+* 자기소개 페이지 만들기
+
 
 * Ruby 
 * MVC 패턴
 * rails 기본
   1. controller 생성
   2. rails의 기본 구조
+* 로또 맞추기
+
