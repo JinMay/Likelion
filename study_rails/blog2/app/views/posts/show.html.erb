@@ -1,0 +1,16 @@
+<h1>Detail post</h1>
+
+<p>
+    <strong>title: </strong>
+    <%= @post.title %>
+
+    <br>
+
+    <strong>content: </strong>
+    <%= @post.content %>
+</p>
+
+<%= link_to 'new post', new_post_path %>
+<%= link_to 'index', posts_path %>
+<%= link_to 'edit', edit_post_path %>
+<%= link_to 'delete', post_path, method: :delete %>
