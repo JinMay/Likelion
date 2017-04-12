@@ -1,5 +1,3 @@
-class JimController < ApplicationController
-    def first
+arr = (1..10)
 
-    end
-end
+puts arr
