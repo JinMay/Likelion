@@ -38,3 +38,15 @@
 * 저장한 값 출력
 * 이메일 형식으로 출력하기
 * 레일즈 view 상속구조 
+
+#### 4th week
+
+* 지난 번 과제 email 만들기 + mailgun 이용해서 이메일 보내기
+
+* CRUD 구조 실습
+
+  > Update 와 Delete를 실습해봄
+
+* Model 개념과 실습
+
+* routes.rb 확장

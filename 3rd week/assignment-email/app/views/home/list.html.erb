@@ -1,0 +1,19 @@
+<div class="container">
+    <% @all_post.each do |post| %>
+        제목: <%= post.title %>
+        <br>
+        받는 이 : <%= post.address %>
+        <br>
+        내용 : <%= post.content %>
+        <a href="/delete/<%= post.id %>">[delete]</a>
+        <a href="/edit/<%= post.id %>">[edit]</a>
+        <hr>
+    <% end %>
+
+    <hr>
+    <p>
+        <a href="/">go to index</a>
+    </p>
+</div>
+
+<a href=""></a>

@@ -1,0 +1,33 @@
+<%= content_for :title do %>
+    <title>Index</title>
+<% end %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Send e-mail</h1>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <form action="/update/<%= @post.id %>" method="post">
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" name="email" class="form-control" placeholder="Email address to send" value="<%= @post.address %>">
+                </div>
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" name="title" class="form-control" placeholder="Please fill out a title" value="<%= @post.title %>">
+                </div>
+                <div class="form-group">
+                    <label for="content">Content</label>
+                    <textarea class="form-control" name="content" rows="10" placeholder="Please write what you want"><%= @post.content %></textarea>
+                </div>
+
+
+                <button type="submit" class="btn btn-default">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
