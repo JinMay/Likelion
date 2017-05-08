@@ -36,6 +36,7 @@ class HomeController < ApplicationController
 
 
     def list
+        # id 필드에 대해서 내림차순!!
         @all_post = Post.all.order('id desc')
     end
 
