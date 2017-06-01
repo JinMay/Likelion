@@ -74,3 +74,9 @@
 
 * devise gem 
 * AWS S3 
+
+#### 9th week
+
+* post image in board + AWS S3
+* devise gem
+
